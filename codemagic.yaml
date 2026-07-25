@@ -4,7 +4,8 @@ workflows:
 
     environment:
       node: 22
-
+       groups:
+    - expo
     scripts:
       - name: Install dependencies
         script: |
